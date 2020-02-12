@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tech-challenge-roofstock/precache-manifest.b031d48bb35e27e8ceb56a0b8bbc52e1.js"
+  "/tech-challenge-roofstock/precache-manifest.040ffbae357c50ff2f068258f5d02602.js"
 );
 
 self.addEventListener('message', (event) => {

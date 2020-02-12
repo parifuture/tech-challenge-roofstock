@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a5dcd4e6a846b7a47545273924af678",
+    "revision": "cc5fc0dc0ba86b5dd13b086fa204e4c7",
     "url": "/tech-challenge-roofstock/index.html"
   },
   {
-    "revision": "1b92907d10569e6c4d19",
+    "revision": "49917364abe7a9dd5287",
     "url": "/tech-challenge-roofstock/static/css/main.ec830657.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tech-challenge-roofstock/static/js/2.2dd8174f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b92907d10569e6c4d19",
-    "url": "/tech-challenge-roofstock/static/js/main.77d81941.chunk.js"
+    "revision": "49917364abe7a9dd5287",
+    "url": "/tech-challenge-roofstock/static/js/main.40072b50.chunk.js"
   },
   {
     "revision": "7395adcefc54c3116949",
