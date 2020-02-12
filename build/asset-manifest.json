@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tech-challenge-roofstock/static/css/main.ec830657.chunk.css",
+    "main.js": "/tech-challenge-roofstock/static/js/main.77d81941.chunk.js",
+    "main.js.map": "/tech-challenge-roofstock/static/js/main.77d81941.chunk.js.map",
+    "runtime-main.js": "/tech-challenge-roofstock/static/js/runtime-main.9509e4ea.js",
+    "runtime-main.js.map": "/tech-challenge-roofstock/static/js/runtime-main.9509e4ea.js.map",
+    "static/js/2.2dd8174f.chunk.js": "/tech-challenge-roofstock/static/js/2.2dd8174f.chunk.js",
+    "static/js/2.2dd8174f.chunk.js.map": "/tech-challenge-roofstock/static/js/2.2dd8174f.chunk.js.map",
+    "index.html": "/tech-challenge-roofstock/index.html",
+    "precache-manifest.b031d48bb35e27e8ceb56a0b8bbc52e1.js": "/tech-challenge-roofstock/precache-manifest.b031d48bb35e27e8ceb56a0b8bbc52e1.js",
+    "service-worker.js": "/tech-challenge-roofstock/service-worker.js",
+    "static/css/main.ec830657.chunk.css.map": "/tech-challenge-roofstock/static/css/main.ec830657.chunk.css.map",
+    "static/js/2.2dd8174f.chunk.js.LICENSE.txt": "/tech-challenge-roofstock/static/js/2.2dd8174f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9509e4ea.js",
+    "static/js/2.2dd8174f.chunk.js",
+    "static/css/main.ec830657.chunk.css",
+    "static/js/main.77d81941.chunk.js"
+  ]
+}
