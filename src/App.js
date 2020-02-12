@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://dev1-sample.azurewebsites.net/properties.json')
+    fetch('https://dev1-sample.azurewebsites.net/properties.json')
       .then((res) => res.json())
       .then((data) => {
         this.setState({ homesList: data });

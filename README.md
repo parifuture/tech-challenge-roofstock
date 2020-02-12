@@ -1,4 +1,4 @@
-# coadingchallenge
+# Tech Challenge
 Tech challenge for RoofStock. Simple app that makes an API call fetches data and displays it in a react forntend.
 
 ## Installation
