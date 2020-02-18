@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/tech-challenge-roofstock/static/css/main.ec830657.chunk.css",
-    "main.js": "/tech-challenge-roofstock/static/js/main.40072b50.chunk.js",
-    "main.js.map": "/tech-challenge-roofstock/static/js/main.40072b50.chunk.js.map",
+    "main.css": "/tech-challenge-roofstock/static/css/main.1f796421.chunk.css",
+    "main.js": "/tech-challenge-roofstock/static/js/main.ae273ba8.chunk.js",
+    "main.js.map": "/tech-challenge-roofstock/static/js/main.ae273ba8.chunk.js.map",
     "runtime-main.js": "/tech-challenge-roofstock/static/js/runtime-main.9509e4ea.js",
     "runtime-main.js.map": "/tech-challenge-roofstock/static/js/runtime-main.9509e4ea.js.map",
-    "static/js/2.2dd8174f.chunk.js": "/tech-challenge-roofstock/static/js/2.2dd8174f.chunk.js",
-    "static/js/2.2dd8174f.chunk.js.map": "/tech-challenge-roofstock/static/js/2.2dd8174f.chunk.js.map",
+    "static/css/2.9aed8bfe.chunk.css": "/tech-challenge-roofstock/static/css/2.9aed8bfe.chunk.css",
+    "static/js/2.5320a949.chunk.js": "/tech-challenge-roofstock/static/js/2.5320a949.chunk.js",
+    "static/js/2.5320a949.chunk.js.map": "/tech-challenge-roofstock/static/js/2.5320a949.chunk.js.map",
     "index.html": "/tech-challenge-roofstock/index.html",
-    "precache-manifest.040ffbae357c50ff2f068258f5d02602.js": "/tech-challenge-roofstock/precache-manifest.040ffbae357c50ff2f068258f5d02602.js",
+    "precache-manifest.e14c25b9b8b8f97d010d13581a13d22d.js": "/tech-challenge-roofstock/precache-manifest.e14c25b9b8b8f97d010d13581a13d22d.js",
     "service-worker.js": "/tech-challenge-roofstock/service-worker.js",
-    "static/css/main.ec830657.chunk.css.map": "/tech-challenge-roofstock/static/css/main.ec830657.chunk.css.map",
-    "static/js/2.2dd8174f.chunk.js.LICENSE.txt": "/tech-challenge-roofstock/static/js/2.2dd8174f.chunk.js.LICENSE.txt"
+    "static/css/2.9aed8bfe.chunk.css.map": "/tech-challenge-roofstock/static/css/2.9aed8bfe.chunk.css.map",
+    "static/css/main.1f796421.chunk.css.map": "/tech-challenge-roofstock/static/css/main.1f796421.chunk.css.map",
+    "static/js/2.5320a949.chunk.js.LICENSE.txt": "/tech-challenge-roofstock/static/js/2.5320a949.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/tech-challenge-roofstock/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9509e4ea.js",
-    "static/js/2.2dd8174f.chunk.js",
-    "static/css/main.ec830657.chunk.css",
-    "static/js/main.40072b50.chunk.js"
+    "static/css/2.9aed8bfe.chunk.css",
+    "static/js/2.5320a949.chunk.js",
+    "static/css/main.1f796421.chunk.css",
+    "static/js/main.ae273ba8.chunk.js"
   ]
 }
