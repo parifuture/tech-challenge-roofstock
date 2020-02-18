@@ -4,7 +4,6 @@
 
 @tailwind utilities;
 
-
 @font-face {
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -264,3 +263,39 @@ h1 { font-size: 1.5em; margin: 10px; }
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+.slick-slide {
+  height: 30vh;
+  background: #2196f3;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  display: table !important;
+}
+
+.slick-slide img {
+  object-fit: cover;
+  display: block;
+  max-height: calc(80vh - 120px);
+  border-radius: 4px;
+}
+
+.slide-0 {
+  background: red;
+}
+
+.slide-1 {
+  background: orange;
+}
+
+.slide-2 {
+  background: green;
+}
+
+.slide-3{
+  background: black;
+}
+
+.hide {
+  display: none;
+}
