@@ -25,13 +25,13 @@ const HomeDetails = ({toggleHouseDetailComponent, props, selectedHouseData}) => 
     arrows: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -39,9 +39,8 @@ const HomeDetails = ({toggleHouseDetailComponent, props, selectedHouseData}) => 
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
       {
@@ -61,7 +60,7 @@ const HomeDetails = ({toggleHouseDetailComponent, props, selectedHouseData}) => 
       <div className="flex mb-4">
         <div className="w-3/5">
           <div className="h-128">
-            <div className="min-h-full rounded-lg shadow-lg overflow-hidden">
+            <div className="min-h-full rounded-lg shadow-lg overflow-show">
               <Slider {...settings}>
                 {imagesArray}
               </Slider>
