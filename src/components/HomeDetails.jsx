@@ -19,7 +19,6 @@ const HomeDetails = ({toggleHouseDetailComponent, props, selectedHouseData}) => 
       <img key={6} src="https://picsum.photos/850" alt="Bedroom 1" />,
     ];
   }
-  console.log('imagesArray',imagesArray);
   const settings = {
     dots: true,
     infinite: true,
@@ -34,25 +33,25 @@ const HomeDetails = ({toggleHouseDetailComponent, props, selectedHouseData}) => 
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div>

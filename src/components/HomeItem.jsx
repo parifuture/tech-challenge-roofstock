@@ -2,7 +2,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import Rating from './Rating';
-import HomeDetails from './HomeDetails';
 
 const currencyFormat = (num) => `${num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')}`;
 
@@ -39,7 +38,9 @@ const processData = (props) => {
     if (financial) {
       processedData.listPrice = `${financial.listPrice}`;
       processedData.monthlyRent = `${financial.monthlyRent}`;
-      processedData.grossYield = Number.parseFloat((processedData.monthlyRent * 1200) / processedData.listPrice).toFixed(2);
+      processedData.grossYield = (processedData.monthlyRent * 1200) / processedData.listPrice;
+      processedData.grossYield = Number.parseFloat(processedData.grossYield);
+      processedData.grossYield = processedData.grossYield.toFixed(2);
 
       processedData.listPrice = `$${currencyFormat(processedData.listPrice)}`;
       processedData.monthlyRent = `$${currencyFormat(processedData.monthlyRent)}`;
@@ -63,7 +64,7 @@ const processData = (props) => {
   return processedData;
 };
 
-const HomeItem = ({ props, showComponent, toggleHouseDetailComponent }) => {
+const HomeItem = ({ props, toggleHouseDetailComponent }) => {
   if (props) {
     const result = processData(props);
 
